@@ -1,0 +1,120 @@
+body {
+	color:#000;
+	font-family:Arial, Helvetica, sans-serif;
+    font-size:16px;
+    margin:0;
+    width: 90%;
+    margin-left: 5%;
+}   
+body{
+	background-color:#E3C7BA;
+}
+/*.container1{
+  
+    margin:auto;
+    overflow:hidden;
+}*/
+.container2{
+   
+    margin:auto;
+    overflow:hidden;
+
+}
+.container1 h1{
+background-color:#A66556;
+	color:#000;
+	margin-top:0%;
+	height:60px;
+	padding-top:20px;
+	font-family:"algerian",sans-serıf;
+	text-align: center;
+	font-size:50px;
+	padding-bottom:20px;
+}
+
+.container2 h2{
+	background-image: url(images/animalimages1.jpg)
+    margin-top:10px;
+    padding-top: 0px;
+} 
+
+
+#mainheader h1{
+	background-color:#A66556;
+	color:#000;
+	margin-top: 0%;
+	height:60px;
+	padding-top:20px;
+	margin-left: 0px;
+	margin-right: 0px;
+	font-family:"algerian",sans-serıf;
+	text-align: center;
+	font-size:50px;
+	padding-bottom:20px;
+	
+}
+#navbar{
+	background-color:#333;
+	color:#fff;
+}
+#navbar ul{
+  list-style:none;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-left:0px; 
+  margin-right:0px;
+}
+#navbar li{
+	display:inline;
+}
+#navbar a{
+	color:#fff;
+	text-decoration:none;
+	font-size: 18px;
+	padding-right: 15px;
+	
+}
+.block {
+	background-color: #A66556;
+	text-align: center;
+	width: 	33%;
+	display: inline-block;
+}
+
+#showcase{
+	background-color:#E3C7BA;
+	height:300px;
+	text-align:center;
+
+}
+
+#showcase h2{
+	background-image: url(images/animalimages1.jpg);
+    font-size: 50px;
+    height:300px;
+    width:auto;
+    margin-top:0px;
+
+}
+#main h3 {
+ margin-left:63px;
+ margin-right: 20px;
+
+}
+#main p{
+	margin-left:5%;
+    margin-right:5%;
+}
+#mainfooter h4 {
+	background-color:#A66556;
+	color:#000;
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-bottom: 0px;
+	margin-top: 5px;
+	
+}
+.footer h4{
+	text-align: center;
+}

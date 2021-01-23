@@ -1,0 +1,59 @@
+body{
+	background-color:#ccc;
+	width: 90%;
+	margin-left: 5%;
+	background-color: #E3C7BA;
+}
+#mainheader h1{
+	background-color:#A66556;
+	color:#000;
+	margin-top: 0%;
+	height:60px;
+	padding-top:20px;
+	margin-left: 0px;
+	margin-right: 0px;
+	font-family:"algerian",sans-serıf;
+	text-align: center;
+	font-size:50px;
+	padding-bottom:20px;
+	
+}
+#navbar{
+	background-color:#333;
+	color:#fff;
+}
+#navbar ul{
+  list-style:none;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-left:0px; 
+  margin-right:0px;
+}
+#navbar li{
+	display:inline;
+}
+#navbar a{
+	color:#fff;
+	text-decoration:none;
+	font-size: 18px;
+	padding-right: 15px;
+	
+}
+.container h2{
+	margin-top: 0%;
+	margin-left:63px; 
+	margin-right:20px;
+	font-family: "bodoni MT",sans serif;
+
+
+}
+
+#mainfooter h4 {
+	background-color:#A66556;
+	color:#000;
+	text-align: center;
+	padding-top:5px;
+	padding-bottom: 5px;
+	margin-bottom: 0px;	
+
+}

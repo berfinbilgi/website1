@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HACHİ-FORM</title>
+	<link rel="stylesheet" type="text/css" href="stylec.css">
+</head>
+<body>
+	<header id="main header">
+		<div class="container">
+		 <h1>HACHİKO</h1>
+	</div>
+	</header>
+
+	<nav id="navbar">
+		<div class="container">
+		 <ul>
+			<li><a href=mywebsite.html >Ana Sayfa</a></li>
+			<li><a href=hakkımızda.html >Hakkımızda</a></li>
+			<li><a href=form.html >Form</a></li>
+		 </ul>
+	    </div>
+	</nav>
+	<form  class="form">
+		<div>
+	  	<div>
+	  	<label>AD:</label>
+	  	<input type="text"name="Ad"placeholder="Ad">
+	  </div>
+	  <br>
+	  <br>
+	  <div>
+	  	<label>SOYAD:</label>
+	  	<input type="text"name="Soyadı"placeholder="Soyadı">
+	  </div>
+	  <br>
+	  <br>
+	  <div>
+	  	<label>E Mail:</label>
+	  	<input type="email"name="EMail"placeholder="Enter E Mail">
+	  </div>
+	  <br>
+	  <br>
+	  <div>
+	   <label>MESAJ:</label>
+	   <textarea name="Mesaj"placeholder="Bize iletmek istediğiniz mesajı giriniz."></textarea>
+	</div>
+	<br>
+	<br>
+	<div>
+		<label>CİNSİYET:</label>
+        <select name="Cinsiyet">
+        	<option value="male">ERKEK</option>
+            <option value="female">KADIN</option>
+            <option value="other">DİĞER</option>
+        </select>
+	</div>
+	<br>
+	<br>
+	 <div>
+	  	<label>YAŞ:</label>
+	  	<input type="number"name="YAŞ"value="20">
+	  </div>
+	  <br>
+	  <br>
+	   <div>
+	  	<label>DOĞUM GÜNÜ:</label>
+	  	<input type="date"name="DOĞUM GÜNÜ">
+	  </div>
+	  <br>
+      </div>
+      <button onclick="myFunction()">ONAYLA</button>
+      <script>
+      function myFunction(){
+      alert("FORMUNUZ ONAYLANDI TEŞEKKÜR EDERİZ");
+  }
+      </script>
+	  </form>
+	  <div>
+    <footer id="mainfooter">
+    	<h4><p>2019 My Website</p></h4>
+    </footer>
+</div>
+</body>
+</html>
